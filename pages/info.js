@@ -17,71 +17,68 @@ function info() {
             </p>
           </div>
         </div>
-        <div className="first-section mb-10 flex flex-col md:flex-row justify-between flex-auto items-center flex-wrap mb-24">
-          <div data-aos="flip-left" data-aos-duration="500">
-            <img
-              src="https://raw.githubusercontent.com/girlscript/gssoc-assets/07bf179210769ea9a280f7e87e1f6e5cdc464953/Info/Triangle.svg"
-              // height="453"
-              // width="320"
-              alt="Rectangle light"
-            />
+        <div className="flex justify-center item-center">
+          <img
+              src="https://raw.githubusercontent.com/girlscript/gssoc-assets/main/Logos/hero-lite.svg"
+              alt="hero-image"/>
+        </div>
+        <div className="flex flex-row justify-around flex-wrap sm:flex-wrap mb-28">
+          <div className="flex flex-col justify-around align-center items-center sm:flex-col">
+            <div className="flex flex-col text-white dark:text-gray-800 text-2xl font-bold text-center bg-primary_orange-0 p-4 rounded-lg max-w-[29rem] w-full">
+            Project Admin
+            </div>
+            
+              <ul className="list-disc dark:text-white font-medium text-lg 2.25rem 3rem mb-5 font-sans">
+                  <li>
+                  <strong className="text-1xl">Project Admins own the projects where the contributors are
+                    free to contribute in the form of documentation, bug fixes or
+                    adding new features.
+                    PAs have to routinely connect with mentors to discuss about
+                    the progress, proceedings &amp; future vision of the project.
+                    PAs are responsible for final reviews, merging PRs, assigning
+                    labels, guiding the mentors in the review process &amp;
+                    resolving doubts in server.</strong>
+                  </li>
+              </ul>
+            
           </div>
-          <div className="basis-full mt-4 md:basis-6/12 md:order-last lg:basis-1/2 lg:order-last relative">
-            <div className="text-black dark:text-white font-medium text-lg 2.25rem 3rem mb-5 font-sans">
-              <ul className="list-disc">
-                <li>
-                <strong className="text-blue-500 text-2xl">Project Admins</strong> own the projects where the contributors are
-                  free to contribute in the form of documentation, bug fixes or
-                  adding new features.
-                </li>
-                <li>
-                  PAs have to routinely connect with mentors to discuss about
-                  the progress, proceedings &amp; future vision of the project.
-                </li>
-                <li>
-                  PAs are responsible for final reviews, merging PRs, assigning
-                  labels, guiding the mentors in the review process &amp;
-                  resolving doubts in server.
-                </li>
-              </ul>
+          <div className="flex flex-col justify-evenly align-center items-center sm:flex-col mt-5">
+            <div className="flex m-auto flex-col text-white dark:text-gray-800 text-2xl font-bold text-center bg-primary_orange-0 p-4 mb-6 rounded-lg max-w-[29rem] w-full">
+            Mentors
             </div>
 
-            <div className="text-black dark:text-white font-medium text-lg 2.25rem 3rem mb-5 font-sans">
-              <ul className="list-disc">
-                <li>
-                <strong className="text-green-500 text-2xl">Mentors</strong> review the Pull Requests, check for plagiarism, and
-                  suggest changes based on the project&apos;s Contribution
-                  guidelines.
-                </li>
-                <li>
-                  They solve queries, debug issues faced by contributors &amp;
-                  are responsible for guiding contributors actively throughout
-                  the program.{" "}
-                </li>
-              </ul>
-            </div>
+              <ul className="list-disc dark:text-white font-medium text-lg 2.25rem 3rem mb-5 font-sans">
+                  <li>
+                  <strong className="text-1xl">Mentors review the Pull Requests, check for plagiarism, and
+                    suggest changes based on the project&apos;s Contribution
+                    guidelines.
+                    They solve queries, debug issues faced by contributors &amp;
+                    are responsible for guiding contributors actively throughout
+                    the program.{" "}</strong>
+                  </li>
+                </ul>
 
-            <div className="text-black dark:text-white font-medium text-lg 2.25rem 3rem mb-5 font-sans">
-              <ul className="list-disc">
-                <li>
-                <strong className="text-yellow-500 text-2xl">Contributors</strong> should feel free to ask their doubts within the
-                  GSSoC server/Github project repositories.
-                </li>
-                <li>
-                  Contributors actively and consistently contribute to the
-                  projects after they&apos;re assigned to a particular issue by
-                  a PA/mentor.
-                </li>
-                <li>
-                  The contributors are free to choose &amp; contribute to
-                  multiple projects but they need to submit PRs to the assigned
-                  issues within the fixed time bar set by the particular
-                  project; failing to do so shall result in reassigning of the
-                  issue to someone else.{" "}
-                </li>
-              </ul>
+          </div>
+          <div className="flex flex-col justify-around align-center items-center sm:flex-col">
+            <div className="flex flex-col text-white dark:text-gray-800 text-2xl font-bold text-center bg-primary_orange-0 p-4 rounded-lg max-w-[29rem] w-full">
+            Participants
             </div>
-
+              <div className="text-black dark:text-white font-medium text-lg 2.25rem 3rem mb-5 font-sans">
+                <ul className="list-disc">
+                  <li>
+                  <strong className="text-1xl">Contributors should feel free to ask their doubts within the
+                    GSSoC server/Github project repositories.
+                    Contributors actively and consistently contribute to the
+                    projects after they&apos;re assigned to a particular issue by
+                    a PA/mentor.
+                    The contributors are free to choose &amp; contribute to
+                    multiple projects but they need to submit PRs to the assigned
+                    issues within the fixed time bar set by the particular
+                    project; failing to do so shall result in reassigning of the
+                    issue to someone else.{" "}</strong>
+                  </li>
+                </ul>
+              </div>
           </div>
         </div>
         <div className="items-center justify-center">
